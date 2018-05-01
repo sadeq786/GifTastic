@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,30 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>GifTastic</title>
 </head>
+
 <body>
-    
-    <div id="buttons"></div>
-    <div id="gifs"></div>
+    <!-- Put Buttons in the Nav Bar -->
+    <div id="buttons" class="jumbotron"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div id="gifs"></div>
+            </div>
+            <div class="col-md-2">
+                <form>
+                    <span id="todo-item">What animal gifs do you want to see? 
+                        <input id="to-do" type="text" placeholder="Enter Animal Name">
+                        <input id="add-to-do" value="Add Animal" type="submit">
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="./assets/javascript/app.js"></script>
 </body>
+
 </html>
